@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(246, 255, 239);
+}
+
+.imagem {
+    display: block;
+    margin: 20px auto;
+}
