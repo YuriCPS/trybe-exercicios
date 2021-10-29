@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(246, 255, 239);
+    font-size: 16px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 65px;
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-weight: 600;
+    line-height: 3em;
+    font-style: italic;
+}
+
+ul {
+    text-decoration: underline;
+}
+
+.texto {
+    background-color: rgb(0, 199, 0);
+    width: fit-content;
+}
+
+#amarelo {
+    background-color: yellow;
+    width: fit-content;
+}
+
+#vermelho {
+    background-color: red;
+    width: fit-content;
+}
+
+#marrom {
+    background-color: brown;
+    width: fit-content;
+}
