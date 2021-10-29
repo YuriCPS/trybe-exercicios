@@ -6,3 +6,20 @@ body{
     display: block;
     margin: 20px auto;
 }
+
+.link {
+    display: block;
+    width: 45%;
+    color: #fff;
+    font-weight: 500; 
+    text-decoration: none;
+    background-color: rgb(0, 150, 7);
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.link:hover {
+    font-weight: bolder; 
+    background-color: rgb(0, 214, 36);
+}
