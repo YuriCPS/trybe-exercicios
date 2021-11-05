@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(185, 185, 185);
+}
+
+article {
+    display: inline-block;
+    max-width: 69%;
+}
+
+aside {
+    display: inline-block;
+    min-width: 29%;
+    vertical-align: top;
+}
