@@ -14,7 +14,7 @@
 //De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto
 //Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.
 
-let salarioBruto = 3000;
+let salarioBruto = 2200;
 
 let inss = 0.0;
 let salarioBase = 0.0;
@@ -43,7 +43,10 @@ if (salarioBruto >= inss1[0] && salarioBruto <= inss1[1]) {
   inss = salarioBruto * inss3[2];
 } else if (salarioBruto >= inss4[0]) {
   inss = inss4[2];
+} else {
+  console.log("Valor do salario bruto incorreto ou menor que 0");
 }
+
 console.log("INSS:", inss);
 
 //Atualiza o salário base pra calcular o IR
@@ -53,7 +56,7 @@ console.log("Salário base:", salarioBase);
 
 //Verifica valor do IR
 if (salarioBase >= ir1[0] && salarioBase <= ir1[1]) {
-  ir = salarioBase * ir1[2] - ir2[3];
+  ir = ir1[2];
 } else if (salarioBase >= ir2[0] && salarioBase <= ir2[1]) {
   ir = salarioBase * ir2[2] - ir2[3];
 } else if (salarioBase >= ir3[0] && salarioBase <= ir3[1]) {
@@ -62,6 +65,8 @@ if (salarioBase >= ir1[0] && salarioBase <= ir1[1]) {
   ir = salarioBase * ir4[2] - ir4[3];
 } else if (salarioBase >= ir5[0]) {
   ir = salarioBase * ir5[2] - ir5[3];
+} else {
+  console.log("Erro no salario base");
 }
 console.log("IR:", ir);
 
