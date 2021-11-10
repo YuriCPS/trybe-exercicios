@@ -2,8 +2,13 @@
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-//Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log() ;
+//Utilizando for , descubra qual o maior valor contido no array e imprima-o;
+
+let maiorValor = null;
 
 for (let i = 0; i < numbers.length; i++) {
-  console.log(numbers[i]);
+  if (maiorValor <= numbers[i]) {
+    maiorValor = numbers[i];
+  }
 }
+console.log(maiorValor);
