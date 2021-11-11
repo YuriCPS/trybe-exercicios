@@ -11,9 +11,12 @@ for (let h = 1; h <= n; h += 2) {
     linha = linha + " "; //Adiciona os espaços
   }
   for (let v2 = 0; v2 < h; v2++) {
+    //For que 'percorre' a vertical da linha gerada no for anterior
     if (v2 == 0 || v2 == h - 1 || h == n) {
+      //Condições onde deve colocar o '*'
       linha = linha + "*";
     } else {
+      //Em todas as outras condições adiciona o espaço
       linha = linha + " ";
     }
   }
