@@ -1,6 +1,6 @@
 //Depois, faça uma pirâmide com n asteriscos de base:
 
-let n = 5;
+let n = 7;
 //Diferente das anteriores onde h=0, nessa h=1 para fazer a subtração correta no for
 for (let h = 1; h <= n; h += 2) {
   //For que 'percorre' a horizontal
@@ -11,8 +11,11 @@ for (let h = 1; h <= n; h += 2) {
     linha = linha + " "; //Adiciona os espaços
   }
   for (let v2 = 0; v2 < h; v2++) {
-    //For que 'percorre' a vertical da linha gerada no for anterior
-    linha = linha + "x"; //Adiciona os '*' na linha gerada no for anterior
+    if (v2 == 0 || v2 == h - 1 || h == n) {
+      linha = linha + "*";
+    } else {
+      linha = linha + " ";
+    }
   }
   //Imprime a linha depois do for que percorre a vertical
   console.log(linha);
