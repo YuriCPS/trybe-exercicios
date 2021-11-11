@@ -11,6 +11,7 @@ for (let h = 1; h <= n; h++) {
     linha = linha + " "; //Adiciona os espaços
   }
   for (let v2 = 0; v2 < h; v2++) {
+    //For que 'percorre' a vertical da linha gerada no for anterior
     linha = linha + "*"; //Adiciona os '*' na linha gerada no for anterior
   }
   //Imprime a linha depois do for que percorre a vertical
