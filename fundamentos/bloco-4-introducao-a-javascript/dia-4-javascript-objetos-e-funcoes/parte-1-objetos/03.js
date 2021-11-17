@@ -2,8 +2,11 @@ let info = {
   personagem: "Margarida",
   origem: "Pato Donald",
   nota: "Namorada do personagem principal nos quadrinhos do Pato Donald",
+  recorrente: "Sim",
 };
 
-// Imprima no console uma mensagem de boas-vindas para a personagem acima, incluindo seu nome.
+// Faça um for/in que mostre todas as chaves do objeto.
 
-console.log("Bem-vinda, " + info.personagem);
+for (let i in info) {
+  console.log(i);
+}
