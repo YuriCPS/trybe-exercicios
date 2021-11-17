@@ -14,7 +14,7 @@
 //De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto
 //Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.
 
-let salarioBruto = 2200;
+let salarioBruto = 3000;
 
 let inss = 0.0;
 let salarioBase = 0.0;
