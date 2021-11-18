@@ -50,8 +50,8 @@ Para pessoas dedicadas e estudiosas que buscam uma carreira em desenvolvimento w
 - [X] 4-1: _JavaScript - Primeiros passos_
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e Funções_
-- [ ] 4-5: _[Projeto - Playground Functions]()_
+- [X] 4-4: _JavaScript - Objetos e Funções_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-018-a-project-playground-functions/pull/10)_
 
 ##### Bloco 5: JavaScrip: DOM, Eventos e Web Storage
 
