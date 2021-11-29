@@ -60,10 +60,10 @@ Para pessoas dedicadas e estudiosas que buscam uma carreira em desenvolvimento w
 - [ ] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _Fundamentos - JavaScript - Projetos_
-- [ ] 5-5: _[Projeto - Arte com Pixels]()_
-- [ ] 5-6: _[Projeto - Lista de Tarefas]()_
-- [ ] 5-7: _[Projeto Bônus - Meme Generator]()_
-- [ ] 5-7: _[Projeto Bônus - Adivinhe a Cor]()_
+- [X] 5-5: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-018-a-project-pixels-art/pull/6)_
+- [X] 5-6: _[Projeto - Lista de Tarefas](https://github.com/tryber/sd-018-a-project-todo-list/pull/3)_
+- [X] 5-7: _[Projeto Bônus - Meme Generator](https://github.com/tryber/sd-018-a-project-meme-generator/pull/20)_
+- [X] 5-7: _[Projeto Bônus - Adivinhe a Cor](https://github.com/tryber/sd-018-a-project-color-guess/pull/19)_
 - [ ] 5-7: _[Projeto Bônus - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
